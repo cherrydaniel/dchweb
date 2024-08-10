@@ -1,6 +1,6 @@
 import { forwardRef, useCallback, useEffect, useRef, useState } from 'react';
 import styled, { keyframes } from 'styled-components';
-import theme from './theme.js';
+import theme from './default_theme.js';
 
 const animationRotate = keyframes`
     0% {

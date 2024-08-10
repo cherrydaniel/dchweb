@@ -1,18 +1,6 @@
-/**
+export default {
 
-#822E81
-#E07BE0
-#660E25
-#450920
-#A53860
-#020D16
-
- */
-
-
-const E = module.exports;
-
-E.color = {
+color: {
     white:  '#FFFFFF',
     black:  '#000000',
     cream:  '#FFFDD0',
@@ -28,16 +16,16 @@ E.color = {
     gray1:  '#C1CED6',
     gray2:  '#818285',
     orange: '#ffce80',
-};
+},
 
-E.screen = {
+screen: {
     mobile: '480px',
     tablet: '768px',
     laptop: '1024px',
     desktop: '1200px',
-};
+},
 
-E.fontSize = {
+fontSize: {
     XS: '8px',
     S: '14px',
     M: '18px',
@@ -45,9 +33,9 @@ E.fontSize = {
     XL: '32px',
     XXL: '48px',
     XXXL: '72px',
-};
+},
 
-E.spacing = {
+spacing: {
     NONE: '0',
     S: '5px',
     M: '8px',
@@ -55,4 +43,6 @@ E.spacing = {
     XL: '20px',
     XXL: '42px',
     XXXL: '90px',
+},
+
 };
